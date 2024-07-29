@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #fbfbfb;
+}
+img{
+    max-width: 100%;
+}
+
+.social{
+    margin-left: 15px;
+}
+aside{
+    background-color: black;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+#side{
+    color: white;
+    font-size: 0.92rem;
+}
+#start{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline dotted;
+    text-underline-offset: 0.3em;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+}
+.nav-div1, .nav-div1>ul{
+    display: flex;
+}
+.nav-div1{
+    justify-content: space-between;
+}
+.nav-div2{
+    display: flex;
+
+}
+
+#logo{
+    width: 10rem;
+}
+
+.nav-div1>ul>li{
+    list-style: none;
+    margin-left: 3rem;
+    margin-top: 0.8rem;
+}
+.nav-div2>img, .nav-div2>a, .nav-div2>button{
+    margin-right: 2rem;
+}
+
+.login{
+    height: 2.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 5.5rem;
+    border-radius: 2rem;
+    font-weight: bolder;
+}
+.login:hover{
+    height: 2.5rem;
+    width: 5.7rem;
+    cursor: pointer;
+}
+.signup{
+    height: 2.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 5.5rem;
+    border-radius: 2rem;
+    background-color: yellow;
+    font-weight: bolder;
+}
+.signup:hover{
+    height: 2.5rem;
+    width: 5.7rem;
+    cursor: pointer;
+}
+.nav-div2>a{
+    margin-top: 1rem;
+    font-weight: bolder;
+}
+.nav-div2>img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.8rem;
+}
+.navbar:hover{
+    background-color: white;
+}
+.nav-div1>ul>li>a{
+    padding: 2px;
+}
+.nav-div1>ul>li>a:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.marketing{
+    display: flex;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 1rem;
+    justify-content: center;
+}
+.marketing>h2{
+    font-weight: lighter;
+    color: #241c15;
+    font-size: 100%;
+    margin-right: 1.5rem;
+    padding-right: 1.5rem;
+    border-right: 1px solid #241c15;
+}
+.marketing>button{
+    color: #007c89;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* section 2 CSS */
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 15rem;
+    margin-top: 2rem;
+}
+.sec2>h1{
+    font-size: 3rem;
+    font-weight: 200;
+    font-family: Means Web, Georgia, Times, Times New Roman, serif;
+    letter-spacing: -.0625rem;
+}
+
+
+.sec2>p{
+    font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    font-weight: 100;
+    letter-spacing: -.02rem;
+    margin-top: 5px;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-size: 1.8rem;
+}
+
+/* Section 3 Css */
+
+
+.sec3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f4;
+    align-items: center;
+    height: 35rem;
+    margin-top: 2rem;
+}
+
+#sec3-img{
+    max-width: 35rem
+}
+
+.sec3-h1{
+    font-weight: 400;
+    font-family: Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 2vw;
+    width: 35rem;
+    margin-bottom: 1rem;
+}
+
+.sec3-p{
+    font-family:  Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+   font-weight: 400;
+   width: 28rem;
+   padding-bottom: 2rem;
+}
+.data-sec3{
+    width: 41.66666667%;
+    margin-left: 7rem;
+}
+
+.btn{
+    background: none;
+    border: 1px solid black;
+    height: 3rem;
+    width: 7.5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+.data-sec3>h2{
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+
+/* Section topics Css */
+
+
+.topic{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+/* This is the content section */
+ 
+.heading{
+    margin-right: 10%;
+    border-bottom: 1px solid lightgray;
+    margin-left: 10%;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.content-ul{
+    margin-left: 10%;
+    margin-right: 10%;
+    list-style: none;
+}
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-data{
+    margin-left: 1rem;
+}
+
+.content-data>h2 {
+    font-weight: 400;
+    font-family: Means Web, Georgia, Times, Times New Roman, serif;
+    letter-spacing: 0;
+    margin: 0.5rem;
+}
+.content-data>h3{
+    font-weight: 300;
+    margin: 0.5rem;
+}
+.content-data>p{
+    margin: 0.5rem;
+}
+.card-div{
+    display: flex;
+    margin-top: 1.75rem;
+}
+.one{
+    width: 70%;
+}
+
+.content-ul>li{
+    margin-bottom: 0.75rem;
+}
+.card-div>li{
+    margin-right: 0.5rem;
+}
+.card-div>li:last-child{
+    margin: 0;
+}
+.card-h3{
+    font-weight: normal;
+    font-size: small;
+    margin-bottom: 0.60rem;
+}
+.card-h2{
+    font-size: 400;
+    font-weight: bold;
+    margin-bottom: 0.60rem;
+}
+.card-p{
+    font-size: large;
+}
+.content{
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+/* This is subscribe section */
+
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: #200202;
+    color: white;
+    height: 35rem;
+    text-align: center;
+    justify-content: center;
+}
+.subs-div>h1{
+    font-size: 5000;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: Means Web, Georgia, Times, Times New Roman, serif;
+}
+#mail{
+    width: 60%;
+    height: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.Submit{
+    background-color: yellow;
+    height: 3rem;
+    width: 6rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    margin-bottom: 1rem;
+}
+.mail-h{
+    margin-right: 49.5%;
+}
+
+.mail-p{
+    font-size: small;
+    font-weight: lighter;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3rem;
+}
+
+/* 
+Footer css */
+
+.footer {
+    background-color: #242424;
+    color: #ffffff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-logo img {
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+.footer-social {
+    margin-bottom: 1rem;
+}
+
+.footer-social .social-link {
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+
+.footer-social .social-link img {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+}
+
+.footer-nav {
+    margin-bottom: 1rem;
+}
+
+.footer-nav .footer-link {
+    margin: 0 0.5rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-nav .footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-copy {
+    font-size: 0.875rem;
+}
+
+
+
+@media only screen and (max-width: 420px){
+    /* This is section2 */
+    .sec2{
+        margin:1%;
+    }
+    .sec2>h1{
+        font-size: 2rem;
+    }
+    
+    .sec2>p{
+        margin: 0;
+        font-size: 1rem;
+    }
+    
+    /* This is section3 */
+    .sec3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 25rem;
+    }
+    
+    #sec3-img{
+        max-width: 20rem
+    }
+    
+    .sec3-h1{
+        margin-bottom: 1rem;
+        margin: 1%;
+    }
+    
+    .sec3-p{
+       width: 100%;
+       padding-bottom: 2rem;
+       margin: 1%;
+    }
+    .data-sec3{
+        width: 100%;
+        margin: 1%;
+        padding: 1%;
+    }
+    
+    .btn{
+        height: 2rem;
+        width: 6.5rem;
+    }
+    .data-sec3>h2{
+        margin: 1%;
+    }
+    .data-sec3>h1{
+        font-size: 0.5rem;
+    }
+
+    /* This is topic section */
+
+    .topic{
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+
+
+    /* This is card section */
+
+    .main-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .media-rm{
+        display: none;
+    }
+    .heading{
+        margin: 2%;
+    }
+    .content-ul{
+        margin: 2%;
+    }
+
+
+    /* This is navbar section */
+
+    .navbar{
+        display: none;
+    }
+
+    .card-h2{
+        font-size: 150;
+        font-weight: bold;
+        margin-bottom: 0.60rem;
+    }
+    .card-p{
+        font-size: large;
+    }
+    .card-h2>a{
+        margin-right: 50px
+    }
+
+    .subscribe{
+        height: 20rem;
+    }
+    .subs-div>h1{
+        font-size: medium;
+    }
+    #mail{
+        height: 1.5rem;
+    }
+    .Submit{
+        height: 2rem;
+        width: 4.5rem;
+        font-weight: bold;
+        margin:0%
+    }
+    .mail-h{
+        margin-right: 20%;
+    }
+    
+    .mail-p{
+        font-size: x-small;
+        line-height: 1rem;
+        font-weight: lighter;
+    }
+
+    /* This is the footer */
+
+
+    .footer-container {
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 120px;
+        margin-bottom: 1rem;
+    }
+
+    .footer-social {
+        margin-bottom: 1rem;
+    }
+
+    .footer-social .social-link {
+        margin: 0 0.25rem;
+    }
+
+    .footer-social .social-link img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer-nav {
+        margin-bottom: 1rem;
+    }
+
+    .footer-nav .footer-link {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .footer-copy {
+        font-size: 0.75rem;
+    }
+}
